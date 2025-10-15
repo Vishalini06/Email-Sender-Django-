@@ -1,0 +1,40 @@
+{
+  "therapists": [
+    {
+      "id": "T1",
+      "address": "Gandhipuram, Coimbatore",
+      "therapy": "physio",
+      "shift": "morning"
+    },
+    {
+      "id": "T2",
+      "address": "Singanallur, Coimbatore",
+      "therapy": "OT",
+      "shift": "evening"
+    },
+    {
+      "id": "T3",
+      "address": "RS Puram, Coimbatore",
+      "therapy": "speech",
+      "shift": "morning"
+    }
+  ],
+  "patients": [
+    { "id": "P1", "address": "Peelamedu, Coimbatore", "therapy": "physio", "shift": "morning" },
+    { "id": "P2", "address": "Town Hall, Coimbatore", "therapy": "OT", "shift": "evening" },
+    { "id": "P3", "address": "Saibaba Colony, Coimbatore", "therapy": "speech", "shift": "morning" },
+    { "id": "P4", "address": "Hope College, Coimbatore", "therapy": "physio", "shift": "morning" },
+    { "id": "P5", "address": "Ukkadam, Coimbatore", "therapy": "OT", "shift": "evening" },
+    { "id": "P6", "address": "Sitra, Coimbatore", "therapy": "speech", "shift": "morning" },
+    { "id": "P7", "address": "Ramanathapuram, Coimbatore", "therapy": "physio", "shift": "morning" },
+    { "id": "P8", "address": "Koundampalayam, Coimbatore", "therapy": "OT", "shift": "evening" },
+    { "id": "P9", "address": "Kalapatti, Coimbatore", "therapy": "speech", "shift": "morning" },
+    { "id": "P10", "address": "Podanur, Coimbatore", "therapy": "physio", "shift": "morning" },
+    { "id": "P11", "address": "Kurichi, Coimbatore", "therapy": "OT", "shift": "evening" },
+    { "id": "P12", "address": "Sundarapuram, Coimbatore", "therapy": "speech", "shift": "morning" },
+    { "id": "P13", "address": "Ganapathy, Coimbatore", "therapy": "physio", "shift": "morning" },
+    { "id": "P14", "address": "Vilankurichi, Coimbatore", "therapy": "OT", "shift": "evening" },
+    { "id": "P15", "address": "Peelamedu Pudur, Coimbatore", "therapy": "speech", "shift": "morning" }
+  ],
+  "distances": {}
+}

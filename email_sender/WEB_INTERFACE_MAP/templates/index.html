@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Therapist Scheduling</title>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAt-jeXSXhU7dMBeIisv991Fb33O9s_bbM"></script>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      height: 100vh;
+    }
+    #sidebar {
+      width: 320px;
+      padding: 15px;
+      background: #f8f9fa;
+      border-right: 1px solid #ddd;
+      overflow-y: auto;
+    }
+    #sidebar h3 {
+      margin-top: 0;
+      color: #2a3f5f;
+    }
+    .therapist-section {
+      margin-bottom: 20px;
+    }
+    .therapist-section h4 {
+      margin-bottom: 10px;
+      color: #2a3f5f;
+    }
+    .route-card, .total-card {
+      background: #eef4fb;
+      border-radius: 8px;
+      padding: 10px;
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+    .total-card {
+      background: #d1e7dd;
+      font-weight: bold;
+    }
+    #map {
+      flex: 1;
+    }
+    #controls {
+      margin-bottom: 10px;
+    }
+    button {
+      padding: 8px 12px;
+      margin-top: 10px;
+      background: #2a3f5f;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #1c2a3a;
+    }
+  </style>
+</head>
+<body>
+  <!-- Sidebar -->
+  <div id="sidebar">
+    <h3>Route Details</h3>
+    <button onclick="runScheduler()">Run Scheduler</button>
+    <div id="routeDetails"></div>
+  </div>
+
+  <!-- Map -->
+  <div id="map"></div>
+</body>
+</html>
